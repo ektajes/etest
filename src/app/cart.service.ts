@@ -31,6 +31,7 @@ let grandtotal=0;
 this.checkoutlist.map((a:any, index:any)=>{
   grandtotal += a.total;
 })
+return grandtotal;
   }
 removeitem(product:any){
   this.checkoutlist.map((a:any, index:any)=>{

@@ -14,7 +14,7 @@
   
         <td>{{item.quantity}}</td>
         <td>{{item.total|currency:"USD":true}}</td>
-        <td><span class="glyphicon glyphicon-trash"></span></td>
+        <td><span (click)="deleteitem(item)" class="glyphicon glyphicon-trash"></span></td>
       </tr>
     </table>
   </div>
